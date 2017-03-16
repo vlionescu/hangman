@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HANGMAN</title>
+    <link rel="stylesheet" type="text/css" href="hangman.css" />
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Homemade+Apple|Indie+Flower|Rock+Salt" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	</head>
+
+  <body>
+		<div id='one' class="hang-instance"></div>
+		<div  id='two' class="hang-instance"></div>
+		<div id="template" class="hang-game">
+			<div class="hang-letters">
+				<span data-letter="a">a</span>
+				<span data-letter="b">b</span>
+				<span data-letter="c">c</span>
+				<span data-letter="d">d</span>
+				<span data-letter="e">e</span>
+				<span data-letter="f">f</span>
+				<span data-letter="g">g</span>
+				<span data-letter="h">h</span>
+				<span data-letter="i">i</span>
+				<span data-letter="j">j</span>
+				<span data-letter="k">k</span>
+				<span data-letter="l">l</span>
+				<span data-letter="m">m</span>
+				<span data-letter="n">n</span>
+				<span data-letter="o">o</span>
+				<span data-letter="p">p</span>
+				<span data-letter="q">q</span>
+				<span data-letter="r">r</span>
+				<span data-letter="s">s</span>
+				<span data-letter="t">t</span>
+				<span data-letter="u">u</span>
+				<span data-letter="v">v</span>
+				<span data-letter="w">w</span>
+				<span data-letter="x">x</span>
+				<span data-letter="y">y</span>
+				<span data-letter="z">z</span>
+			</div>
+
+			<div id="hang-picture" class="hang-picture">
+				<img class="hang-hanger" src="hanger.png">
+				<img class="hang-head invisible" id="head" src="head.png">
+				<img class="hang-torso invisible" id="torso" src="torso.png">
+				<img class="hang-left-arm invisible" id="left-arm" src="left-arm.png">
+				<img class="hang-right-arm invisible" id="right-arm" src="right-arm.png">
+				<img class="hang-left-leg invisible" id="left-leg" src="left-leg.png">
+				<img class="hang-right-leg invisible" id="right-leg" src="right-leg.png">
+				<img class="hang-eye-1 invisible" id="eyes" src="eyes.png">
+				<img class="hang-eye-2 invisible" id="eyes" src="eyes.png">
+			</div>
+			<div class="hang-tried-letters"></div>
+			<div class="hang-start">START</div>
+			<div class="hang-output"></div>
+			<div class="hang-score">
+				<div class="hang-wins">W:</div>
+				<div class="hang-losses">L:</div>
+			</div>
+		</div>
+		
+	
+    <script type="text/javascript" src="createHangmanGame.js"></script>
+		<script type="text/javascript" src="wordSupplier.js"></script>   
+		
+	  <script type="text/javascript" src="init-hangman.js"></script> 
+		<script type="text/javascript" src="app.js"></script>   
+  </body>
+</html>

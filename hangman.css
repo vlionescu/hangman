@@ -1,0 +1,113 @@
+body{
+	background: url('back.jpg');
+	background-size: 100% 100vh;
+	color:#dde0db;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 60px;
+
+}
+#template{
+	display:none;
+}
+#one, #two{
+	width:100%;
+	position:relative;
+	height:100vh;
+
+}
+.hang-picture{
+	position:relative;
+	margin:0 auto;
+	width: 50%;
+
+}
+.hang-hanger{
+	position:absolute;
+	left:0;
+	
+}
+.hang-head{
+	position:absolute;
+	top:128px;
+	left:294px;
+}
+.hang-eye-1{
+	position:absolute;
+	top:155px;
+	left:320px;
+}
+.hang-eye-2{
+	position:absolute;
+	top:155px;
+	left:340px;
+}
+.hang-torso{
+	position:absolute;
+	top:218px;
+	left:325px;
+}
+.hang-left-arm{
+	position:absolute;
+	top:228px;
+	left:285px;	
+}
+.hang-right-arm{
+	position:absolute;
+	top:228px;
+	left:335px;	
+}
+.hang-left-leg{
+	position:absolute;
+	top:268px;
+	left:289px;	
+}
+.hang-right-leg{
+	position:absolute;
+	top:282px;
+	left:331px;	
+}
+.invisible{
+	visibility:hidden;
+}
+.visible{
+	visibility:visible;
+}
+
+.hang-letters{
+	position: absolute;
+	right:0;
+	top:110px;
+	width:200px;
+}
+.hang-letters span{
+	cursor:pointer;
+}
+.hang-output{
+	font-stretch: expanded;
+	width:800px;
+	height:80px;
+	left:50%;
+	margin-left:-250px;
+	font-size:80px;
+	position:absolute;
+	bottom:100px;
+}
+.hang-start{
+	position:absolute;
+	cursor:pointer;
+	bottom:190px;
+	width:100px;
+	left:50%;
+	margin-left:-50px;
+}
+.hang-tried-letters{
+	position:absolute;
+	width:200px;
+	left:0;
+	top:110px;
+}
+.hang-score{
+	position:absolute;
+	bottom:0;
+	left:0;
+}
